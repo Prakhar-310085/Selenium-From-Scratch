@@ -47,7 +47,7 @@ namespace Selenium_Learning
             String hrefAttr = link.GetAttribute("href");
             String expectedUrl = "https://rahulshettyacademy.com/documents-request";
             Assert.That(hrefAttr, Is.EqualTo(expectedUrl));
-            Thread.Sleep(3000);
+            //Thread.Sleep(3000);
             driver.Close();
         }
     }
