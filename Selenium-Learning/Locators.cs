@@ -11,7 +11,7 @@ using OpenQA.Selenium.Support.UI;
 
 namespace Selenium_Learning
 {
-    internal class Locators
+    public class Locators
     {
         IWebDriver driver;
         
@@ -33,6 +33,7 @@ namespace Selenium_Learning
             driver.FindElement(By.Id("username")).Clear();
             driver.FindElement(By.Id("username")).SendKeys("testuser");
             driver.FindElement(By.Name("password")).SendKeys("Password");
+            
             driver.FindElement(By.XPath("//div[@class='form-group'][5]/label/span/input")).Click();
             // using CSS
             //driver.FindElement(By.CssSelector("input[value='Sign In']")).Click();
