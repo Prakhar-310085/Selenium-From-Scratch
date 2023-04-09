@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c#fundamentals", "c#fundamentals\c#fundamentals.csproj", "{90AB82D0-DE01-4524-893F-AF8D124E89AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "c#fundamentals", "c#fundamentals\c#fundamentals.csproj", "{90AB82D0-DE01-4524-893F-AF8D124E89AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium-Learning", "Selenium-Learning\Selenium-Learning.csproj", "{84A5130F-CC1E-41D7-8CF9-C3DBBFBE75CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Selenium-Learning", "Selenium-Learning\Selenium-Learning.csproj", "{84A5130F-CC1E-41D7-8CF9-C3DBBFBE75CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSeleniumFramework", "CSharpSeleniumFramework\CSharpSeleniumFramework.csproj", "{14B8526F-1797-4097-867E-5C0735C61DF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{84A5130F-CC1E-41D7-8CF9-C3DBBFBE75CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84A5130F-CC1E-41D7-8CF9-C3DBBFBE75CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84A5130F-CC1E-41D7-8CF9-C3DBBFBE75CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B8526F-1797-4097-867E-5C0735C61DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B8526F-1797-4097-867E-5C0735C61DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B8526F-1797-4097-867E-5C0735C61DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B8526F-1797-4097-867E-5C0735C61DF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
